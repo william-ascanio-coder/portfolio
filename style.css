@@ -172,14 +172,14 @@ footer {
 @media (max-width: 900px) {
     section {
         max-width: 98vw;
-        padding: 16px 4vw;
+        padding: 12px 2vw;
     }
     header nav ul {
-        gap: 8px;
+        gap: 4px;
     }
     .profile-pic {
-        width: 110px;
-        height: 110px;
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -187,14 +187,30 @@ footer {
     header nav ul {
         flex-direction: column;
         align-items: center;
+        gap: 0;
+    }
+    header nav ul li {
+        margin: 6px 0;
+        width: 100%;
+        text-align: center;
+    }
+    header nav a {
+        min-width: 80vw;
+        padding: 10px 0;
+        font-size: 1.1em;
     }
     section {
-        padding: 8px 2vw;
-        margin: 12px auto;
+        padding: 6px 1vw;
+        margin: 8px auto;
+        width: 98vw;
+        max-width: 99vw;
     }
     .profile-pic {
         width: 60px;
         height: 60px;
+    }
+    .profile-container {
+        margin-bottom: 8px;
     }
 }
 
